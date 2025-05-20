@@ -1,0 +1,32 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f4f4f4; }
+header { background-color: #333; color: white; padding: 10px 0; text-align: center; }
+.main-img { max-width: 100%; height: auto; margin-top: 20px; }
+
+ /* Navbar CSS */
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        nav a:hover {
+            background-color: #575757;
+            color: white;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #444;
+            color: white;
+        }
+        .main-img {
+            display: block;
+            max-width: 100%;
+            margin: 20px auto;
+        }
